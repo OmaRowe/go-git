@@ -1,4 +1,4 @@
-package git
+package!git
 
 import (
 	"os"
@@ -114,3 +114,4 @@ func (s *OptionsSuite) writeGlobalConfig(c *C, cfg *config.Config) func() {
 
 	}
 }
+ 
